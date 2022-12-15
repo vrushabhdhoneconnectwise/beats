@@ -155,7 +155,7 @@
         "fileset.name": "server", 
         "input.type": "log", 
         "log.level": "INFO", 
-        "message": "master_left [{srvmulpvlsk250_md}{igrwSoPGSJ6u_5b8k26tgQ}{PuRqciBFRbiQvL2_lS7LrQ}{srvmulpvlsk250.loganalytics.santanderuk.corp}{180.39.9.91:9300}{ml.max_open_jobs=10, ml.enabled=true}], reason [failed to ping, tried [3] times, each with  maximum [30s] timeout]", 
+        "message": "master_left", 
         "offset": 1668, 
         "prospector.type": "log", 
         "service.name": "elasticsearch"
@@ -168,7 +168,7 @@
         "fileset.name": "server", 
         "input.type": "log", 
         "log.level": "WARN", 
-        "message": "master left (reason = failed to ping, tried [3] times, each with  maximum [30s] timeout), current nodes: nodes:\n   {srvmulpvlsk252_md}{uc5xdiQgRhaBIY-sszgjvQ}{X9pC0t1UQQix_NNOM0J6JQ}{srvmulpvlsk252.loganalytics.santanderuk.corp}{180.39.9.93:9300}{ml.max_open_jobs=10, ml.enabled=true}, local\n   {srvmulpvlsk258_md}{HgW6EDn5QCmWVmICy4saHw}{o8zku7OJR4CTp0IjY8Ag4Q}{srvmulpvlsk258.loganalytics.santanderuk.corp}{180.39.9.99:9300}{ml.max_open_jobs=10, ml.enabled=true}\n   {srvmulpvlsk250_md}{igrwSoPGSJ6u_5b8k26tgQ}{PuRqciBFRbiQvL2_lS7LrQ}{srvmulpvlsk250.loganalytics.santanderuk.corp}{180.39.9.91:9300}{ml.max_open_jobs=10, ml.enabled=true}, master\n   {srvmulpvlsk254_id}{wZYeAh2URc2NwBIHZolLWQ}{3nduupo-TzSPaXjQaNu4Sg}{srvmulpvlsk254.loganalytics.santanderuk.corp}{180.39.9.95:9300}{ml.max_open_jobs=10, ml.enabled=true}", 
+        "message": "master_left",
         "offset": 2008, 
         "prospector.type": "log", 
         "service.name": "elasticsearch"
