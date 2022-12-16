@@ -204,7 +204,7 @@
         "input.type": "log",
         "log.level": "INFO",
         "log.offset": 1668,
-        "message": "master_left [{srvmulpvlsk250_md}{igrwSoPGSJ6u_5b8k26tgQ}{PuRqciBFRbiQvL2_lS7LrQ}{ml.max_open_jobs=10, ml.enabled=true}], reason [failed to ping, tried [3] times, each with  maximum [30s] timeout]",
+        "message": "master_left",
         "service.type": "elasticsearch"
     },
     {
