@@ -9,12 +9,8 @@
 [2018-07-09T12:47:33,959][INFO ][o.e.c.m.MetaDataMappingService] [QGY1F5P] [.kibana/3tWftqb4RLKdyCAga9syGA] update_mapping [doc]
 [2018-05-17T08:29:25,598][INFO ][o.e.n.Node               ] [vWNJsZ3] closing ...
 [2018-05-17T08:29:25,612][INFO ][o.e.n.Node               ] [vWNJsZ3] closed
-[2018-07-03T11:45:48,548][INFO ][o.e.d.z.ZenDiscovery     ] [srvmulpvlsk252_md] master_left [{srvmulpvlsk250_md}{igrwSoPGSJ6u_5b8k26tgQ}{PuRqciBFRbiQvL2_lS7LrQ}{srvmulpvlsk250.loganalytics.santanderuk.corp}{180.39.9.91:9300}{ml.max_open_jobs=10, ml.enabled=true}], reason [failed to ping, tried [3] times, each with  maximum [30s] timeout]
+[2018-07-03T11:45:48,548][INFO ][o.e.d.z.ZenDiscovery     ] [srvmulpvlsk252_md] master_left [{srvmulpvlsk250_md}{igrwSoPGSJ6u_5b8k26tgQ}{PuRqciBFRbiQvL2_lS7LrQ}{ml.max_open_jobs=10, ml.enabled=true}], reason [failed to ping, tried [3] times, each with  maximum [30s] timeout]
 [2018-07-03T11:45:48,548][WARN ][o.e.d.z.ZenDiscovery     ] [srvmulpvlsk252_md] master left (reason = failed to ping, tried [3] times, each with  maximum [30s] timeout), current nodes: nodes:
-   {srvmulpvlsk252_md}{uc5xdiQgRhaBIY-sszgjvQ}{X9pC0t1UQQix_NNOM0J6JQ}{srvmulpvlsk252.loganalytics.santanderuk.corp}{180.39.9.93:9300}{ml.max_open_jobs=10, ml.enabled=true}, local
-   {srvmulpvlsk258_md}{HgW6EDn5QCmWVmICy4saHw}{o8zku7OJR4CTp0IjY8Ag4Q}{srvmulpvlsk258.loganalytics.santanderuk.corp}{180.39.9.99:9300}{ml.max_open_jobs=10, ml.enabled=true}
-   {srvmulpvlsk250_md}{igrwSoPGSJ6u_5b8k26tgQ}{PuRqciBFRbiQvL2_lS7LrQ}{srvmulpvlsk250.loganalytics.santanderuk.corp}{180.39.9.91:9300}{ml.max_open_jobs=10, ml.enabled=true}, master
-   {srvmulpvlsk254_id}{wZYeAh2URc2NwBIHZolLWQ}{3nduupo-TzSPaXjQaNu4Sg}{srvmulpvlsk254.loganalytics.santanderuk.corp}{180.39.9.95:9300}{ml.max_open_jobs=10, ml.enabled=true}
 [2018-07-03T11:45:52,666][WARN ][r.suppressed             ] path: /_xpack/monitoring/_bulk, params: {system_id=logstash, system_api_version=2, interval=1s}
 org.elasticsearch.cluster.block.ClusterBlockException: blocked by: [SERVICE_UNAVAILABLE/2/no master];
         at org.elasticsearch.cluster.block.ClusterBlocks.globalBlockedException(ClusterBlocks.java:165) ~[elasticsearch-5.6.3.jar:5.6.3]
