@@ -38,6 +38,8 @@ winlogbeat.event_logs:
     event_id: 4103, 4104, 4105, 4106
     
   - name: Microsoft-Windows-Windows Defender/Operational
+  
+  - name: Microsoft-Windows-Sysmon/Operational
 
 # ====================== Elasticsearch template settings =======================
 
